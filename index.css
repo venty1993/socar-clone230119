@@ -1,0 +1,16 @@
+.adventage-infomation > h3 {
+    position: relative;
+    width: fit-content;
+}
+
+.adventage-infomation > h3::after {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: blue;
+    position: absolute;
+    bottom: 0;
+    right: -12px;
+}
